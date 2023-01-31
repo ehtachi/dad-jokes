@@ -9,11 +9,11 @@ const options = {
 	}
 };
 
-async function deadjoke(){
+async function haha(){
     const resp = await fetch("https://api.api-ninjas.com/v1/dadjokes?limit=1", options);
     const jjoke = await resp.json();
     const jokes = jjoke[0].joke;
     h2.textContent = `${jokes}`;
 }
 
-btn.addEventListener("click", deadjoke);
+btn.addEventListener("click", haha);
