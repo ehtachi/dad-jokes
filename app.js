@@ -1,7 +1,6 @@
 const btn = document.querySelector(".joke-btn")
 const h2 = document.querySelector("#joker");
-const h22 = document.querySelector("#punchline");
-const body = document.body;
+
 
 const options = {
 	method: 'GET',

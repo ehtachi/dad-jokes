@@ -16,6 +16,7 @@ body{
 }
 
 .container{
+    border-radius: 1rem;
     width: 70%;
     padding: 1rem;
     background-color: white;
@@ -33,6 +34,15 @@ body{
     width: 15rem;
     height: 3rem;
     border: none;
+    border-radius: 1rem;
+    transition: 0.4s all;
+}
+
+.joke-btn:hover{
+    width: 17rem;
+    height: 4rem;
+    background-color: black;
+    color: white;
 }
 
 #punchline{
