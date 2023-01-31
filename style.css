@@ -25,6 +25,7 @@ body{
     justify-content: space-around;
     text-align: center;
     align-items: center;
+    border-radius: 1rem;
 }
 
 .joke-btn{
